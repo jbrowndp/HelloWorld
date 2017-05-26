@@ -10,7 +10,7 @@ public class HelloWorld {
 
 	public static String getMessage() {
 		// TODO Auto-generated method stub
-		return "Hello DataPak!";
+		return "Hello World!";
 	}
 
 }
