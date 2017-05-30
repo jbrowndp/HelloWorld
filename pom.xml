@@ -34,7 +34,7 @@
         <version>1.9.5</version>
         <configuration>
           <connectionType>connection</connectionType>
-           <message>[Add Version to git]</message>
+           <message>[Add to Git]</message>
         </configuration>
       </plugin>
 		</plugins>
@@ -71,6 +71,12 @@
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.sonatype.m2e.egit/org.sonatype.m2e.egit -->
+<dependency>
+    <groupId>org.sonatype.m2e.egit</groupId>
+    <artifactId>org.sonatype.m2e.egit</artifactId>
+    <version>0.13.0.20110628-2018</version>
+</dependency>
 	</dependencies>
 	<ciManagement>
 		<system>JENKINS</system>
