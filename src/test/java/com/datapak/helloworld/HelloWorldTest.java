@@ -10,7 +10,7 @@ public class HelloWorldTest {
 	public void testgetMessage() {
 		
 		
-		assertEquals("Hello World!", HelloWorld.getMessage());
+		assertEquals("Hello There!", HelloWorld.getMessage());
 	}
 
 }
