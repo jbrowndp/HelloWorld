@@ -34,7 +34,7 @@
         <version>1.9.5</version>
         <configuration>
           <connectionType>connection</connectionType>
-           <message>[Add to Git]</message>
+           <message>${message}</message>
         </configuration>
       </plugin>
 		</plugins>
